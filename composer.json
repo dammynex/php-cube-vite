@@ -1,0 +1,24 @@
+{
+  "name": "brainex/php-cube",
+  "description": "A minimal PHP Framework for building simple and scalable web applications",
+  "type": "project",
+  "version": "0.10.0",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    },
+    "files": [
+      "core/bootstrap.php"
+    ]
+  },
+  "require": {
+    "brainex/php-cube-core": "^0.1.0"
+  },
+  "scripts": {
+    "post-create-project-cmd": [
+      "php -r \"file_exists('.env') || copy('.env.example', '.env');\"",
+      "composer update"
+    ]
+  }
+}

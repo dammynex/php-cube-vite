@@ -1,0 +1,12 @@
+#!/usr/bin/php
+<?php
+
+require_once __DIR__ . '/vendor/autoload.php';
+
+use Cube\Helpers\Cli\Cli;
+
+$app = require_once __DIR__ . '/core/app.php';
+
+#Listen for command line tools
+$cli = new Cli($app);
+$cli->listen();

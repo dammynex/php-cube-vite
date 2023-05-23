@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cube</title>
+    {{css('styles')}}
+</head>
+<body>
+    <h1 class="title">
+        {{env.project_name}}
+    </h1>
+    <div class="cube-welcome">
+        Error 404
+    </div>
+    <div class="cube-version">
+        Route "<b>{{request.url().getPath()}}</b>" not registered on the "<strong>{{request.method() | upper}}</strong>" request sent.
+    </div>
+    <div class="cube-docs">
+        v{{env.cube_version}}
+    </div>
+</body>
+</html>

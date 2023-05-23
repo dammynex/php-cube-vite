@@ -1,0 +1,30 @@
+body {
+    background-color: #f0f0f0;
+    font-family: 'Segoe UI';
+}
+
+.title {
+    padding: 1.6em;
+    text-align: center;
+}
+
+.cube-welcome {
+    font-size: 1.7em;
+    padding: 1em;
+    text-align: center;
+}
+
+.cube-version {
+    text-align: center;
+}
+
+.cube-docs {
+    margin: 1.5em 1em;
+    text-align: center;
+}
+
+.cube-docs a {
+    color: #000;
+    font-weight: bold;
+    text-decoration: underline;
+}
