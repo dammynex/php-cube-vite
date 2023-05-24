@@ -19,10 +19,11 @@ return array(
 
     #Make Cube\Http\Request accessible from view via _req
     'embed_request' => false,
-    
+
     #Functions allowed in views
     'functions' => array(
-        'var_dump'
+        'var_dump',
+        'vite'
     ),
 
     #Filters allowed in view

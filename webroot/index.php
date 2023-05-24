@@ -9,8 +9,6 @@
  */
 require_once '../vendor/autoload.php';
 
-dd($composer);
-
 /**
  * -----------------------------------------------------
  * Let's start the app.
